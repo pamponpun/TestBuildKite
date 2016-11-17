@@ -1,5 +1,5 @@
 steps:
   - name: Deploy
     command: scripts/buildkite-deploy-pr.sh
-	agents:
+    agents:
       os: linux
